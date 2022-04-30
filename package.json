@@ -1,0 +1,30 @@
+{
+  "name": "basic-ui",
+  "version": "1.0.0",
+  "description": "Basic UI tests",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://atikrumaan@bitbucket.org/atikrumaan/cy-ui-test.git"
+  },
+  "author": "Atik",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://bitbucket.org/atikrumaan/cy-ui-test/issues"
+  },
+  "homepage": "https://bitbucket.org/atikrumaan/cy-ui-test#readme",
+  "devDependencies": {
+    "cypress": "^9.5.4",
+    "cypress-cucumber-preprocessor": "^4.3.1"
+  },
+  "dependencies": {
+    "cosmiconfig": "^4.0.0"
+  },
+  "cypress-cucumber-preprocessor": {
+    "nonGlobalStepDefinitions": true
+  }
+
+}

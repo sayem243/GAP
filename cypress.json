@@ -1,0 +1,6 @@
+{
+    "baseUrl":"https://secure-www.gap.com",
+    "testFiles": "**/*.feature",
+    "viewportWidth": 1200,
+  "viewportHeight": 740
+}
